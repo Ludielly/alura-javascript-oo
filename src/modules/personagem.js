@@ -1,6 +1,4 @@
-export
-
-class Personagem{
+export class Personagem{
     nome
     vida = 100
     mana = 100
@@ -8,10 +6,9 @@ class Personagem{
     tipo
     descricao
 
-    constructor(nome, level, tipo){
+    constructor(nome, level){
         this.nome = nome
         this.level = level
-        this.tipo = tipo
     }
 
     obterInsignia(){
